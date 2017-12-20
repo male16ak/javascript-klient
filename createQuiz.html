@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <meta charset="UTF-8">
+    <title>createQuiz</title>
+
+</head>
+<body>
+<div class="container">
+
+    <div class="row" id="nav-container"></div>
+
+    <h3 class="bg-info text-center">Choose a course</h3>
+
+    <div class="btn-group-vertical btn-block" role="group" id="courses-buttons">
+
+    </div>
+
+    <div id="createQuizForm">
+    <input type="text" name="quizname" placeholder="Skriv et QuizNavn" id="quizTitel">
+    <dl id="questionTitles">
+
+    </dl>
+
+
+    <input type="button" value="Add a question" id="addQuestion">
+
+    </div>
+</div>
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/createQuiz.js"></script>
+<script>SDK.checkLogin();</script>
+
+</body>
+</html>

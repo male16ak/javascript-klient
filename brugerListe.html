@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta charset="UTF-8">
+    <title>Bruger Liste</title>
+</head>
+
+<body>
+<div class="container">
+
+    <div class="row" id="nav-container"></div>
+
+  <div class="panel panel-primary">
+
+      <div class="panel-heading text-center" >Brugerliste</div>
+
+      <table class="table table-hover">
+
+          <thead>
+          <tr>
+
+              <th>ID</th>
+              <th>Username</th>
+              <th>Fornavn</th>
+              <th>Efternavn</th>
+          </tr>
+
+
+          </thead>
+
+          <tbody id="brugerListe">
+
+        </tbody>
+
+      </table>
+
+  </div>
+
+
+</div>
+
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/brugerListe.js"></script>
+<script>SDK.checkLogin();</script>
+
+</body>
+</html>
