@@ -14,22 +14,28 @@
 
     <div class="row" id="nav-container"></div>
 
-    <h3 class="bg-info text-center">Choose a course</h3>
+    <h3 class="bg-info text-center" id="QuizHead">Choose a Quiz Titel</h3>
 
-    <div class="btn-group-vertical btn-block" role="group" id="courses-buttons">
-
-    </div>
 
     <div id="createQuizForm">
     <input type="text" name="quizname" placeholder="Skriv et QuizNavn" id="quizTitel">
-    <dl id="questionTitles">
+        <input type="button" value="Add a Quiz titel" id="addQuizButton">
+    </div>
 
-    </dl>
+    <div id="questionTitle">
 
-
-    <input type="button" value="Add a question" id="addQuestion">
+        <input type="text" placeholder="Question Title" id="NewQuestionText">
+        <input type="button" value="Add a question" id="NewQuestionButton">
 
     </div>
+
+    <div>
+        <input type="text" placeholder="Choice Title" id="NewChoice">
+        <input type="radio" id="radioTrue" name="answer" value="1">True
+        <input type="radio" id="radioFalse" name="answer" value="0">False
+        <input type="button" value="Submit Choice" id="NewChoiceButton">
+    </div>
+
 </div>
 <script src="lib/js/jquery-3.2.1.js"></script>
 <script src="lib/js/bootstrap.js"></script>

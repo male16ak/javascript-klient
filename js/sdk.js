@@ -1,4 +1,4 @@
- let encryption = true;
+
 
 const SDK = {
   serverURL: "http://localhost:8080/api",
@@ -19,7 +19,7 @@ const SDK = {
       dataType: "json",
       data: JSON.stringify(SDK.encrypt(JSON.stringify(options.data))),
       success: (data, status, xhr) => {
-        cb(null, data, status, xhr);
+        cb(null, (SDK.decrypt(data)), status, xhr);
       },
       error: (xhr, status, errorThrown) => {
         cb({xhr: xhr, status: status, error: errorThrown});
@@ -46,13 +46,26 @@ const SDK = {
   },
 
   Quiz: {
-    create: (data, cb) => {
+    create: (quizTitel,courseId, cb) => {
       SDK.request({
         method: "POST",
-        url: "/quiz",
-        data: data,
+        url: "/quiz/",
+        data: {
+            quizTitle: quizTitel,
+            courseId: courseId
+        },
 
-      }, cb);
+      }, (err, data) => {
+
+          if (err) return cb(err);
+
+          data = JSON.parse(data);
+
+          SDK.Storage.persist("quizID", data.quizId);
+
+
+          cb(null, data);
+      });
     },
       findAll: (id, cb) => {
       SDK.request({
@@ -90,11 +103,26 @@ const SDK = {
   },
  // ikke færdig med question
     Question: {
-      create: (data, cb) => {
+      create: (questionTitle,quizId, cb) => {
           SDK.request({
               method: "POST",
-              url: "/question/"
-          }, cb);
+              url: "/question/",
+              data: {
+                  questionTitle: questionTitle,
+                  quizId: quizId
+              },
+
+          }, (err, data) => {
+
+              if (err) return cb(err);
+
+              data = JSON.parse(data);
+
+              SDK.Storage.persist("questionId", data.questionId);
+
+
+              cb(null, data);
+          });
       },
 
         findAll: (id, cb) => {
@@ -121,6 +149,26 @@ const SDK = {
             SDK.request({
                 method: "GET",
                 url: ("/choice/"+id),
+
+            }, (err, data) => {
+
+                if (err) return cb(err);
+
+                data = JSON.parse(data);
+
+                cb(null, data);
+            });
+        },
+
+        create: (choiceTitle,answer,questionId, cb) => {
+            SDK.request({
+                method: "POST",
+                url: "/choice/",
+                data: {
+                    choiceTitle: choiceTitle,
+                    answer: answer,
+                    questionId: questionId
+                },
 
             }, (err, data) => {
 
@@ -166,6 +214,8 @@ const SDK = {
           }, (err, data) => {
 
               if (err) return cb(err);
+
+              data = JSON.parse(data);
 
 
               cb(null, data);
@@ -258,7 +308,14 @@ const SDK = {
           SDK.request({
               method: "GET",
               url: "/user"
-          }, cb);
+          },(err, data) => {
+
+              if (err) return cb(err);
+
+              data = JSON.parse(data);
+
+              cb(null, data);
+          });
 
       },
 
@@ -325,33 +382,39 @@ const SDK = {
 
 
     encrypt: (willBeEncrypted) => {
-      if (encryption) {
+
           if (willBeEncrypted !== undefined && willBeEncrypted.length !== 0) {
+              console.log("VI SKAL KRYPTERE NOGET")
+              console.log("Lad os kryptere denne:"+JSON.stringify(willBeEncrypted));
               // Encrypt key
               const key = ["K", "O", "C", "H"];
               let nowEncrypted = "";
               for (let i = 0; i < willBeEncrypted.length; i++) {
                   nowEncrypted += (String.fromCharCode((willBeEncrypted.charAt(i)).charCodeAt(0) ^ (key[i % key.length]).charCodeAt(0)))
               }
+              console.log("Vi har krypteret foelgende: "+nowEncrypted);
               return nowEncrypted
           }
-      } else{
+       else{
           return willBeEncrypted
       }
     },
 
     decrypt: (willBeDecrypted) => {
-      if (encryption) {
+
           if (willBeDecrypted !== undefined && willBeDecrypted.length !== 0) {
+              console.log("VI SKAL DEKRYPTERE NOGET")
+              console.log("Lad os decrypte denne: "+JSON.stringify(willBeDecrypted));
               const key = ["K","O","C","H"];
               let nowDecrypted = "";
               for (let i = 0; i < willBeDecrypted.length; i++) {
                   nowDecrypted += (String.fromCharCode((willBeDecrypted.charAt(i)).charCodeAt(0) ^ (key[i % key.length]).charCodeAt(0)))
           }
-          return JSON.parse(nowDecrypted);
+          console.log("Vi har decrypteret foelgende: "+nowDecrypted);
+          return nowDecrypted;
           }
-      } else {
-          return JSON.parse(willBeDecrypted)
+       else {
+          return willBeDecrypted;
       }
     }
 

@@ -9,7 +9,6 @@ $(document).ready(() => {
     const $createQuizDropDown = $("#createQuizDropDown");
     const $modalHead = $("#modalHead");
     const $takeQuizModalBody = $("#takeQuizModalBody");
-    const $takeQuizModal = $("#takeQuizModal");
     const $submitAnswer = $("#submitAnswer");
 
     $("#createAdminButton").hide();
