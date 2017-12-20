@@ -101,7 +101,6 @@ const SDK = {
 
       }
   },
- // ikke færdig med question
     Question: {
       create: (questionTitle,quizId, cb) => {
           SDK.request({
@@ -143,7 +142,6 @@ const SDK = {
     },
 
 
- // ikke færdig med choice
     Choice: {
         findAll: (id, cb) => {
             SDK.request({

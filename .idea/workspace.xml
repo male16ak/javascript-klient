@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92571914-c464-4f4a-9274-ba284eb2dd01" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createQuiz.html" afterPath="$PROJECT_DIR$/createQuiz.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/createQuiz.js" afterPath="$PROJECT_DIR$/js/createQuiz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/my-page.js" afterPath="$PROJECT_DIR$/js/my-page.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sdk.js" afterPath="$PROJECT_DIR$/js/sdk.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,6 +19,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="sdk.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/sdk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6786">
+              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my-page.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="my-page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/my-page.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-950">
@@ -51,19 +58,6 @@
             <state relative-caret-position="-73">
               <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="question.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/question.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-              <folding>
-                <marker date="1513687772521" expanded="true" signature="522:669" ph="{...}" />
-                <marker date="1513687772521" expanded="true" signature="585:647" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -186,10 +180,10 @@
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/js/quiz.js" />
         <option value="$PROJECT_DIR$/js/brugerListe.js" />
-        <option value="$PROJECT_DIR$/js/sdk.js" />
         <option value="$PROJECT_DIR$/createQuiz.html" />
         <option value="$PROJECT_DIR$/js/my-page.js" />
         <option value="$PROJECT_DIR$/js/createQuiz.js" />
+        <option value="$PROJECT_DIR$/js/sdk.js" />
       </list>
     </option>
   </component>
@@ -282,7 +276,7 @@
       <workItem from="1513239656064" duration="698000" />
       <workItem from="1513505454515" duration="1175000" />
       <workItem from="1513609226508" duration="8092000" />
-      <workItem from="1513681820359" duration="30292000" />
+      <workItem from="1513681820359" duration="30713000" />
     </task>
     <task id="LOCAL-00001" summary="Upload af projekt til GIT. Har først anvendt GIT nu, så derfor er der mange ændringer.">
       <created>1512653082384</created>
@@ -316,7 +310,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99176000" />
+    <option name="totallyTimeSpent" value="99597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -635,14 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sdk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="167" column="44" lean-forward="false" selection-start-line="167" selection-start-column="44" selection-end-line="167" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/createUser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -747,6 +733,14 @@
             <marker date="1513791277069" expanded="true" signature="808:1033" ph="..." />
             <marker date="1513791277069" expanded="true" signature="2932:2994" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sdk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6786">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
