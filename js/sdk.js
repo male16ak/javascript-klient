@@ -1,5 +1,3 @@
-
-
 const SDK = {
   serverURL: "http://localhost:8080/api",
   request: (options, cb) => {
@@ -382,15 +380,12 @@ const SDK = {
     encrypt: (willBeEncrypted) => {
 
           if (willBeEncrypted !== undefined && willBeEncrypted.length !== 0) {
-              console.log("VI SKAL KRYPTERE NOGET")
-              console.log("Lad os kryptere denne:"+JSON.stringify(willBeEncrypted));
               // Encrypt key
               const key = ["K", "O", "C", "H"];
               let nowEncrypted = "";
               for (let i = 0; i < willBeEncrypted.length; i++) {
                   nowEncrypted += (String.fromCharCode((willBeEncrypted.charAt(i)).charCodeAt(0) ^ (key[i % key.length]).charCodeAt(0)))
               }
-              console.log("Vi har krypteret foelgende: "+nowEncrypted);
               return nowEncrypted
           }
        else{
@@ -401,14 +396,12 @@ const SDK = {
     decrypt: (willBeDecrypted) => {
 
           if (willBeDecrypted !== undefined && willBeDecrypted.length !== 0) {
-              console.log("VI SKAL DEKRYPTERE NOGET")
-              console.log("Lad os decrypte denne: "+JSON.stringify(willBeDecrypted));
               const key = ["K","O","C","H"];
               let nowDecrypted = "";
               for (let i = 0; i < willBeDecrypted.length; i++) {
                   nowDecrypted += (String.fromCharCode((willBeDecrypted.charAt(i)).charCodeAt(0) ^ (key[i % key.length]).charCodeAt(0)))
           }
-          console.log("Vi har decrypteret foelgende: "+nowDecrypted);
+
           return nowDecrypted;
           }
        else {
