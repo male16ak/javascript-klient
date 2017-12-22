@@ -2,12 +2,10 @@ $(document).ready(() => {
 
     SDK.User.loadNav();
 
-  //  const quizID = SDK.Storage.load("QuizID");
     const $takeQuizModalBody = $("#takeQuizModalBody");
 
     console.log("vores quizID er: "+quizID);
 
- //   const $questionTbody = $("#question-tbody");
     const $submit = $("#submitanswers");
 
 

@@ -2,7 +2,6 @@ $(document).ready(() => {
 
     SDK.User.loadNav();
 
-   const $loginModal = $("#loginModal");
 
     $("#login-button").click(() => {
 

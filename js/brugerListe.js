@@ -27,22 +27,20 @@ $(document).ready(() => {
 
         $("#brugerListe").delegate(".remove", "click", () => {
 
-           SDK.Storage.persist("deleteUserId",event.target.id);
+            SDK.Storage.persist("deleteUserId",event.target.id);
 
             const deleteUserId = SDK.Storage.load("deleteUserId");
 
             if (confirm('Are you sure you want to delete user with ID ' + deleteUserId + "?")) {
-                SDK.User.delete(deleteUserId, (err) => {
 
+                SDK.User.delete(deleteUserId, (err) => {
                     if (err) {
                         alert("User was not deleted. Error occurred (" + err + ").");
                     } else {
                         alert("User (ID " + deleteUserId + ") has been deleted!");
                         $("#brugerListe").find('tr[data-id=' + deleteUserId +']').remove();
                     }
-
                 });
-
             }
             else {
                 alert("The user was not deleted.")

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92571914-c464-4f4a-9274-ba284eb2dd01" name="Default" comment="Små ændringer i createQuiz og fj">
+    <list default="true" id="92571914-c464-4f4a-9274-ba284eb2dd01" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/brugerListe.js" afterPath="$PROJECT_DIR$/js/brugerListe.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/createQuiz.js" afterPath="$PROJECT_DIR$/js/createQuiz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/sdk.js" afterPath="$PROJECT_DIR$/js/sdk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/login.js" afterPath="$PROJECT_DIR$/js/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/my-page.js" afterPath="$PROJECT_DIR$/js/my-page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/question.js" afterPath="$PROJECT_DIR$/js/question.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-page.html" afterPath="$PROJECT_DIR$/my-page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,60 +25,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="sdk.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/sdk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2400">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quizListe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/quizListe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-              <folding>
-                <marker date="1513687772521" expanded="true" signature="416:582" ph="..." />
-                <marker date="1513687772521" expanded="true" signature="433:524" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brugerListe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/brugerListe.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <marker date="1513687772489" expanded="true" signature="282:536" ph="..." />
-                <marker date="1513687772489" expanded="true" signature="299:396" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createQuiz.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/createQuiz.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="my-page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/my-page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2325">
-              <caret line="115" column="31" lean-forward="false" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="31" />
+            <state relative-caret-position="1846">
+              <caret line="155" column="7" lean-forward="true" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
               <folding>
-                <marker date="1513791277069" expanded="true" signature="808:1033" ph="..." />
-                <marker date="1513791277069" expanded="true" signature="2932:2994" ph="..." />
+                <marker date="1513895361405" expanded="true" signature="808:1033" ph="..." />
+                <marker date="1513895361405" expanded="true" signature="2932:2994" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brugerListe.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/brugerListe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+              <folding>
+                <marker date="1513899077760" expanded="true" signature="282:536" ph="..." />
+                <marker date="1513899077760" expanded="true" signature="299:396" ph="..." />
               </folding>
             </state>
           </provider>
@@ -83,8 +54,31 @@
       <file leaf-file-name="my-page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1525">
-              <caret line="61" column="114" lean-forward="false" selection-start-line="61" selection-start-column="114" selection-end-line="61" selection-end-column="114" />
+            <state relative-caret-position="446">
+              <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/question.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-475">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <marker date="1513887689779" expanded="true" signature="422:569" ph="{...}" />
+                <marker date="1513887689779" expanded="true" signature="485:547" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,18 +87,28 @@
       <file leaf-file-name="createQuiz.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createQuiz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
+            <state relative-caret-position="114">
               <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quiz.html">
+      <file leaf-file-name="brugerListe.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/brugerListe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quizListe.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quizListe.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -113,21 +117,19 @@
       <file leaf-file-name="question.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="89">
               <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/quiz.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-              <folding>
-                <marker date="1513687772521" expanded="true" signature="386:522" ph="..." />
-              </folding>
+            <state relative-caret-position="346">
+              <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="72" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,13 +151,15 @@
       <find>create</find>
       <find>dropbo</find>
       <find>coursesDropDown</find>
-      <find>AdminSign</find>
       <find>deleteCour</find>
       <find>login</find>
-      <find>createAdmin</find>
       <find>quizID</find>
       <find>deleteUser</find>
       <find>console.log</find>
+      <find>answer</find>
+      <find>createAdmin</find>
+      <find>AdminSign</find>
+      <find>createADmin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,29 +186,36 @@
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/quizListe.js" />
-        <option value="$PROJECT_DIR$/js/question.js" />
-        <option value="$PROJECT_DIR$/my-page.html" />
         <option value="$PROJECT_DIR$/nav.html" />
         <option value="$PROJECT_DIR$/js/createUser.js" />
-        <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/js/quiz.js" />
-        <option value="$PROJECT_DIR$/js/brugerListe.js" />
         <option value="$PROJECT_DIR$/createQuiz.html" />
-        <option value="$PROJECT_DIR$/js/my-page.js" />
         <option value="$PROJECT_DIR$/js/sdk.js" />
         <option value="$PROJECT_DIR$/js/createQuiz.js" />
+        <option value="$PROJECT_DIR$/js/question.js" />
+        <option value="$PROJECT_DIR$/js/login.js" />
+        <option value="$PROJECT_DIR$/js/my-page.js" />
+        <option value="$PROJECT_DIR$/my-page.html" />
+        <option value="$PROJECT_DIR$/js/brugerListe.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="976" />
+    <option name="x" value="-8" />
+    <option name="width" value="1440" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -223,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,7 +256,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -253,6 +264,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.Klient">
     <configuration name="Klient" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/javascript-klient/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/javascript-klient/index.html" />
     <list size="2">
@@ -296,7 +308,8 @@
       <workItem from="1513505454515" duration="1175000" />
       <workItem from="1513609226508" duration="8092000" />
       <workItem from="1513681820359" duration="31307000" />
-      <workItem from="1513845704429" duration="1515000" />
+      <workItem from="1513845704429" duration="4297000" />
+      <workItem from="1513884385417" duration="9324000" />
     </task>
     <task id="LOCAL-00001" summary="Upload af projekt til GIT. Har først anvendt GIT nu, så derfor er der mange ændringer.">
       <created>1512653082384</created>
@@ -326,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513687651143</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Små ændringer i createQuiz og har fjernet console.log">
+      <created>1513854137036</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513854137036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101706000" />
+    <option name="totallyTimeSpent" value="113812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,7 +420,8 @@
     <MESSAGE value="Upload af projekt til GIT. Har først anvendt GIT nu, så derfor er der mange ændringer." />
     <MESSAGE value="Tilføjelse af delete quiz metode og ændring i navbar." />
     <MESSAGE value="Alt er nu lavet på nær opret quiz og kryptering." />
-    <option name="LAST_COMMIT_MESSAGE" value="Alt er nu lavet på nær opret quiz og kryptering." />
+    <MESSAGE value="Små ændringer i createQuiz og har fjernet console.log" />
+    <option name="LAST_COMMIT_MESSAGE" value="Små ændringer i createQuiz og har fjernet console.log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -428,8 +449,8 @@
         <state relative-caret-position="4250">
           <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
           <folding>
-            <marker date="1513791277069" expanded="true" signature="808:1033" ph="..." />
-            <marker date="1513791277069" expanded="true" signature="2932:2994" ph="..." />
+            <marker date="1513895361405" expanded="true" signature="808:1033" ph="..." />
+            <marker date="1513895361405" expanded="true" signature="2932:2994" ph="..." />
           </folding>
         </state>
       </provider>
@@ -462,8 +483,8 @@
         <state relative-caret-position="725">
           <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
-            <marker date="1513687772521" expanded="true" signature="522:669" ph="{...}" />
-            <marker date="1513687772521" expanded="true" signature="585:647" ph="..." />
+            <marker date="1513887689779" expanded="true" signature="422:569" ph="{...}" />
+            <marker date="1513887689779" expanded="true" signature="485:547" ph="..." />
           </folding>
         </state>
       </provider>
@@ -591,8 +612,8 @@
         <state relative-caret-position="275">
           <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
-            <marker date="1513791277069" expanded="true" signature="808:1033" ph="..." />
-            <marker date="1513791277069" expanded="true" signature="2932:2994" ph="..." />
+            <marker date="1513895361405" expanded="true" signature="808:1033" ph="..." />
+            <marker date="1513895361405" expanded="true" signature="2932:2994" ph="..." />
           </folding>
         </state>
       </provider>
@@ -602,13 +623,6 @@
     <entry file="file://$PROJECT_DIR$/my-pageAdmin.html" />
     <entry file="file://$PROJECT_DIR$/js/createAdmin.js" />
     <entry file="file://$PROJECT_DIR$/createAdmin.html" />
-    <entry file="file://$PROJECT_DIR$/brugerListe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.html" />
     <entry file="file://$PROJECT_DIR$/courses.html" />
     <entry file="file://$PROJECT_DIR$/js/courses.js" />
@@ -619,61 +633,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/sdk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="345" column="22" lean-forward="true" selection-start-line="345" selection-start-column="22" selection-end-line="345" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/createUser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="550">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/question.js">
+    <entry file="file://$PROJECT_DIR$/js/createQuiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <marker date="1513687772521" expanded="true" signature="522:669" ph="{...}" />
-            <marker date="1513687772521" expanded="true" signature="585:647" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quizListe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quiz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -688,18 +667,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="61" column="114" lean-forward="false" selection-start-line="61" selection-start-column="114" selection-end-line="61" selection-end-column="114" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/quizListe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <marker date="1513687772521" expanded="true" signature="416:582" ph="..." />
             <marker date="1513687772521" expanded="true" signature="433:524" ph="..." />
@@ -707,49 +678,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/brugerListe.js">
+    <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <marker date="1513687772489" expanded="true" signature="282:536" ph="..." />
-            <marker date="1513687772489" expanded="true" signature="299:396" ph="..." />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/my-page.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="115" column="31" lean-forward="false" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="31" />
-          <folding>
-            <marker date="1513791277069" expanded="true" signature="808:1033" ph="..." />
-            <marker date="1513791277069" expanded="true" signature="2932:2994" ph="..." />
-          </folding>
+        <state relative-caret-position="346">
+          <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/sdk.js">
+    <entry file="file://$PROJECT_DIR$/question.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2400">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="89">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quizListe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createQuiz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
+        <state relative-caret-position="114">
           <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/createQuiz.js">
+    <entry file="file://$PROJECT_DIR$/brugerListe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/my-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1846">
+          <caret line="155" column="7" lean-forward="true" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
+          <folding>
+            <marker date="1513895361405" expanded="true" signature="808:1033" ph="..." />
+            <marker date="1513895361405" expanded="true" signature="2932:2994" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1513887689779" expanded="true" signature="422:569" ph="{...}" />
+            <marker date="1513887689779" expanded="true" signature="485:547" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/brugerListe.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
-          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="27" />
-          <folding />
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <marker date="1513899077760" expanded="true" signature="282:536" ph="..." />
+            <marker date="1513899077760" expanded="true" signature="299:396" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

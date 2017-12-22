@@ -110,7 +110,7 @@ $(document).ready(() => {
 
     });
 
-        const getChoice = function(id){
+        const getChoice = function(id) {
             SDK.Choice.findAll(id, (err, choice) => {
                 if (err) throw err;
                 let list = $("#"+id);
@@ -165,23 +165,17 @@ $(document).ready(() => {
 
         const deleteUserId = currentUser.userId;
 
-
-
             if (confirm('Are you sure you want to delete your user with ID ' + deleteUserId + "?"))
 
             {
-
                 SDK.User.delete(deleteUserId, (err) => {
 
                 });
                 SDK.User.logOut();
             }
-
             else {
                 alert("The user was not deleted.")
             }
-
-
 
         });
 
@@ -200,7 +194,6 @@ $(document).ready(() => {
                 $("#inputNewAdminFirstName").val("") ;
                 $("#inputNewAdminLastName").val("");
 
-
             }
             else if (err && err.xhr.status === 401) {
                 $(".form-group").addClass("has-error");
@@ -208,7 +201,10 @@ $(document).ready(() => {
             else if (err) {
                 console.log("Bad stuff happened")
             } else {
-                window.location.href = "my-page.html";
+             //   window.location.href = "my-page.html";
+
+                alert("Den nye Admin bruger er nu oprettet i systemet");
+
             }
         });
 

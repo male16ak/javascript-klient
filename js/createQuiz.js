@@ -2,9 +2,6 @@ $(document).ready(() => {
 
     SDK.User.loadNav();
 
-    const $coursesButtons = $("#courses-buttons");
-    const $addQuestion = $("#addQuestion");
-    const $questionTitles = $("#questionTitles");
     const $courseID = SDK.Storage.load("CourseId");
     const $newQuestionButton = $("#NewQuestionButton");
     const $newChoiceButton = $("#NewChoiceButton");
